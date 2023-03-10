@@ -139,13 +139,13 @@ textarea {
   color: rgba(255, 145, 0, 1);
   border-style: dashed;
   border: 1px dashed #ffffff;
-  padding: 8px;
+  padding: 10px;
   font-size: 20px;
 }
 
 .contact input:hover,
 textarea:hover {
-  border: 2px dotted rgba(255, 145, 0, 1);
+  border: 1px dotted rgba(255, 145, 0, 1);
 }
 
 .contact input[id="name"] {
@@ -168,7 +168,7 @@ textarea:hover {
 }
 
 .contact input[type="submit"]:hover {
-  border: 2px dotted rgba(255, 145, 0, 1);
+  border: 1px dotted rgba(255, 145, 0, 1);
 }
 
 ::placeholder {
