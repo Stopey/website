@@ -1,34 +1,38 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
-html, body {
-	min-height: 100%;
-	background: #141414;
-	color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+html,
+body {
+  min-height: 100%;
+  background: #141414;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-	font-size: 16px;
-	text-rendering: optimizeLegibility;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
 }
 
-body, ul, ol, dl {
-	margin: auto;
-    max-width: 1024px;
+body,
+ul,
+ol,
+dl {
+  margin: auto;
+  max-width: 1024px;
 }
 
 h1 {
-	font-size: 32px;
+  font-size: 32px;
 }
 
 section {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 /*
@@ -36,35 +40,33 @@ Heading
 */
 
 .logo {
-    scale: 60%;
-    color: rgb(255, 145, 0);
-    
+  scale: 60%;
+  color: rgb(255, 145, 0);
 }
 
 header h1 {
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    
+  color: rgb(255, 255, 255);
+  display: inline-block;
 }
 
 nav a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    float: right;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 18px 18px;
-    text-decoration: none;
-    font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 nav ul {
-    float: right;
-    line-height: 0.5;
+  float: right;
+  line-height: 0.5;
 }
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 /*
@@ -72,81 +74,107 @@ Projects
 */
 
 .fa-github {
-    color: rgb(255, 255, 255);
-    scale: 100%;
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  scale: 100%;
+  text-decoration: none;
 }
 
 .projects a {
-    color: whitesmoke;
-    text-decoration: none;
-    justify-content: space-between;
+  color: whitesmoke;
+  text-decoration: none;
+  justify-content: space-between;
 }
 .projects li {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 /*
 Skills
 */
 
 .skills {
-    text-align: left;
-    margin: auto;
+  text-align: left;
+  margin: auto;
 }
 .skills li {
-    display: inline-block;
-    padding: 10px 30px;
-    font-size: 30px;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 30px;
+}
 
+.skills li:hover {
+  color: rgba(255, 145, 0, 1);
 }
 
 /* 
 Form
 */
 .contact form {
-    text-align: center;
-    padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
 
-.contact input {
-    width: 500px;
+.contact input,
+textarea {
+  width: 60%;
+  text-align: center;
+  background-color: rgba(54, 54, 54, 0.5);
+  color: rgba(255, 145, 0, 1);
+  border-style: dashed;
+  border: 1px dashed #ffffff;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.contact input[id="name"] {
+  border-radius: 30px 30px 0px 0px;
 }
 
 .contact textarea {
-    width: 500px;
+  border-radius: 0px 0px 30px 30px;
+  text-align: left;
 }
 
 .contact input[type="submit"] {
-    width: 250px;
+  width: 250px;
+  padding: 4px;
+  font-size: 16px;
+  background-color: #141414;
+  color: white;
+  border-style: none none dotted;
+  border: 1px dotted #ffffff;
+}
 
+.contact input[type="submit"]:hover {
+  background-color: grey;
 }
 
 ::placeholder {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
 }
 
 .contact br {
-    display: block;
-    content: "";
-    margin-top: 5px;
- 
+  display: block;
+  content: "";
+  margin-top: 8px;
 }
 /* 
 Footer
 */
 
 footer {
-    text-align: center;
-    padding-top: 100px;
+  text-align: center;
+  padding-top: 100px;
 }
 
 footer hr {
-    border: 3px dotted #ffffff;
-    border-style: none none dotted; 
-    color: #fff; 
+  border: 3px dotted #ffffff;
+  border-style: none none dotted;
+  color: #fff;
 }
 .footer-logo {
-    padding-top: 10px;
-    color: rgb(255, 145, 0);
+  padding-top: 10px;
+  color: rgb(255, 145, 0);
 }
