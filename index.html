@@ -15,15 +15,15 @@
     <nav class="main-menu">
       <h1>Ben Elstub <i class="fa-solid fa-code logo"></i></h1>
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Hero / about -->
-  <section class="about-me">
+  <section class="about-me" id="about-me">
     <h2>About me</h2>
     <p>
       Hey there! I'm currently studying the Back-end Engineer career path on Codecademy, working hard to gain the skills
@@ -32,17 +32,15 @@
   </section>
 
   <!-- My projects -->
-  <section class="projects">
+  <section class="projects" id="projects">
     <h2>
       My projects
       <sup><a href="https://github.com/benelstub" target="_blank"><i class="fa-brands fa-github"></i></a></sup>
     </h2>
 
-    <ul>
-      <li><a href="#">Project 1</a></li>
-      <li><a href="#">Project 2</a></li>
-      <li><a href="#">Project 3</a></li>
-    </ul>
+    <p> Check back regularly as I update this section with my latest completed projects. If you're curious about what
+      I'm currently working on, be sure to visit my GitHub page where you can follow my progress and get a sneak peek of
+      my upcoming work.</p>
   </section>
 
   <!-- Skills -->
@@ -63,13 +61,14 @@
   </section>
 
   <!-- Contact form -->
-  <section class="contact">
+  <section class="contact" id="contact">
     <h2>Get in touch!</h2>
     <p>
       Something you think I may be interested in, or just want to say thanks?
-      Shoot me a message
+      Shoot me a message...
     </p>
-    <form action="https://formsubmit.co/hello@benelstub.uk" method="POST">
+    <h3>hello@benelstub.dev</h3>
+    <form action="https://formsubmit.co/hello@benelstub.dev" method="POST">
       <!-- Honeypot -->
       <input type="text" name="_honey" style="display: none;">
 
@@ -85,8 +84,8 @@
         placeholder="Enter your message here"></textarea>
       <br />
       <input type="hidden" name="_template" value="box">
-      <input type="hidden" name="_next" value="https://dev.benelstub.uk/thanks.html">
-      <input type="submit" value="submit" />
+      <input type="hidden" name="_next" value="https://dev.benelstub.uk/success.html">
+      <input type="submit" value="Submit" />
     </form>
   </section>
 
