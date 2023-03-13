@@ -1,2 +1,3 @@
-# website
-Repo for the source code of my personal website
+# Personal Site
+
+Source code for my personal website. This version was written using HTML, CSS & JS only.
